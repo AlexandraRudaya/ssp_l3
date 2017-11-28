@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Passowrd request form</title>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<!--<header>
+	</header>-->
+	<div class="main">
+		<div class="first_block"></div>
+		<!--<div class="second_block"></div>-->
+		<div class="third_block">
+			<div class="main_form">
+				<div class="form">
+					<div class="form_title">
+						<div class="form_title_name">Password request form</div>
+
+						<div class="form_title_about">После загрузки файлов и отправки формы данные, связанные с Вашим аккаунтом Google (имя и фотография), будут записаны. Вы не
+							<span class="title_about_akk">rudaya2711@gmail.com?</span>
+							<a class="title_about_akkchan" href="https://accounts.google.com/AccountChooser?continue=https://docs.google.com/forms/d/1mY2cTmD1dd798C1l6e5q28ClvYqAIVybHDLkiMCZNnk/viewform?usp%3Ddrive_web%26edit_requested%3Dtrue&service=wise">Сменить аккаунт</a>
+						</div>				
+						<div class="form_title_rules">* Обязательно</div>
+					</div>
+
+					<div class="form_item">
+						<div class="form_item_name">
+							<div class="form_item_name_header">
+								<div class="form_item_name_header_container">
+									<div class="form_item_name_header_container_text">Please fill your name
+										<span class="rules_star">*</span>
+									</div>
+								</div>
+							</div>
+							<div class="form_item_name_answer">
+								<div class="form_itme_name_ansmwer_text">
+									<form action="./myform.php" method="post">									
+										<input type="text" placeholder="My answer" name="name" size="40">
+										<div class="line"></div>
+									</form>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="form_item_color">
+							<div class="form_item_color_header">
+								<div class="form_item_color_header_container">
+									<div class="form_item_color_header_container_text">What color you like
+										<span class="rules_star">*</span>
+									</div>
+								</div>
+							</div>
+							<div class="form_item_color_answer">
+								<div class="form_itme_color_ansmwer_text">
+									<form action="./myform.php" method="post">	
+										<input type="radio" name="color">Red<br>
+										<input type="radio" name="color">Green<br>
+										<input type="radio" name="color">Blue<br>
+										<input type="radio" name="color">Black<br>
+										<input type="radio" name="color">White<br>
+										<input type="radio" name="color">Another:
+										<input type="text" name="color" placeholder="color"><br>
+									</form>
+								</div>
+								<div class="line"></div>
+							</div>
+						</div>
+
+
+						<div class="form_item_town">
+						<div class="form_item_town_header">
+							<div class="form_item_town_header_container">
+								<div class="form_item_town_header_container_text">What town you like more?
+									<span class="rules_star">*</span>
+								</div>
+							</div>
+						</div>
+						<div class="form_item_town_answer">
+							<div class="form_itme_town_ansmwer_text">								
+   								<form method="post" action="./myform.php">
+    								<select name="town">
+    									<option value="Choose" name="town">Choose</option>
+    									<option value="Brest" name="town">Brest</option>
+    									<option value="Minsk" name="town">Minsk</option>
+    									<option value="Grodno" name="town">Grodno</option>
+    									<option value="Gomel" name="town">Gomel</option>
+    									<option value="Magilev" name="town">Magilev</option>
+    									<option value="Vitebsk" name="town">Vitebsk</option>
+    								</select>
+    							</form>
+							</div>
+						</div>
+
+
+						<div class="form_item_namelang">
+							<div class="form_item_namelang_header">
+								<div class="form_item_namelang_header_container">
+									<div class="form_item_namelang_header_container_text">Please describe (at least 50 symbols on symbols) your favorite programming language
+										<span class="rules_star">*</span>
+									</div>
+								</div>
+							</div>
+							<div class="form_item_namelang_answer">
+								<div class="form_itme_namelang_ansmwer_text">
+									<form action="./myform.php" method="post">									
+										<input type="text" placeholder="My answer" name="language" size="40">
+										<div class="line"></div>
+									</form>
+								</div>
+							</div>
+						</div>
+
+						<div class="form_item_years">
+							<div class="form_item_years_header">
+								<div class="form_item_years_header_container">
+									<div class="form_item_years_header_container_text">What years of education did you really like?
+										<span class="rules_star">*</span>
+									</div>
+								</div>
+							</div>
+							<div class="form_item_years_answer">
+								<div class="form_itme_years_ansmwer_text">
+									<form action="./myform.php" method="post">	
+										<p>							
+											<input type="checkbox" name="year">First<br>
+											<input type="checkbox" name="year">Second<br>
+											<input type="checkbox" name="year">Third<br>
+											<input type="checkbox" name="year">Fourth<br>
+										</p>	
+									</form>
+								</div>
+								<div class="line"></div>
+							</div>
+						</div>
+
+
+						<div class="form_item_image">
+							<div class="form_item_image_header">
+								<div class="form_item_image_header_container">
+									<div class="form_item_image_header_container_text">Please send any image
+										<span class="rules_star">*</span>
+									</div>
+									
+								</div>
+							</div>
+							<div class="form_item_image_answer">
+								<div class="form_itme_image_ansmwer_text">
+									<form action="./myform.php" enctype="multipart/form-data" method="post">									
+										<input type="file" name="photo" multiple accept="image/*,image/jpeg">
+									</form>
+								</div>
+							</div>
+						</div>
+
+						<div class="form_item_date">
+							<div class="form_item_date_header">
+								<div class="form_item_date_header_container">
+									<div class="form_item_date_header_container_text">Set last Monday
+										<span class="rules_star">*</span>
+									</div>
+									
+								</div>
+							</div>
+							<div class="form_item_date_answer">
+								<div class="form_itme_date_ansmwer_text">
+									<form action="./myform.php" method="post">									
+										<input type="date" autocomplete="on" name="date">
+									</form>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="form_item_submit">
+							<div class="form_item_submit_bottom">
+								<form action="./myform.php">
+									<input type="submit" value="Отправить">
+								</form>
+							</div>
+						</div>
+						
+					</div>
+					<div class="form_about">
+						<div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+
+</body>
+</html>
+
+<!--<h1 class="form_title_text1"></h1>
+					<p class="form_title_text2"></p>
+					<p class="form_title_field"></p> -->
