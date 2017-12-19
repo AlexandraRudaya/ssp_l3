@@ -40,11 +40,11 @@
 							<div class="form_item_name_answer">
 								<div class="form_itme_name_ansmwer_text">
 									<form action="./myform.php" method="post">									
-										<input type="text" placeholder="My answer" name="name" size="40">
-										<div class="line"></div>
+										<input type="text" required placeholder="My answer" name="name" size="60">
 									</form>
 								</div>
 							</div>
+							<div class="line"></div>
 						</div>
 
 
@@ -59,44 +59,45 @@
 							<div class="form_item_color_answer">
 								<div class="form_itme_color_ansmwer_text">
 									<form action="./myform.php" method="post">	
-										<input type="radio" name="color">Red<br>
-										<input type="radio" name="color">Green<br>
-										<input type="radio" name="color">Blue<br>
-										<input type="radio" name="color">Black<br>
-										<input type="radio" name="color">White<br>
-										<input type="radio" name="color">Another:
-										<input type="text" name="color" placeholder="color"><br>
+										<input type="radio" required name="color">Red<br>
+										<input type="radio" required name="color">Green<br>
+										<input type="radio" required name="color">Blue<br>
+										<input type="radio" required name="color">Black<br>
+										<input type="radio" required name="color">White<br>
+										<input type="radio" required name="color">Another:
+										<input type="text" required name="color" placeholder="color" size="45"><br>
 									</form>
 								</div>
-								<div class="line"></div>
 							</div>
+							<div class="line"></div>
 						</div>
 
 
 						<div class="form_item_town">
-						<div class="form_item_town_header">
-							<div class="form_item_town_header_container">
-								<div class="form_item_town_header_container_text">What town you like more?
-									<span class="rules_star">*</span>
+							<div class="form_item_town_header">
+								<div class="form_item_town_header_container">
+									<div class="form_item_town_header_container_text">What town you like more?
+										<span class="rules_star">*</span>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="form_item_town_answer">
-							<div class="form_itme_town_ansmwer_text">								
-   								<form method="post" action="./myform.php">
-    								<select name="town">
-    									<option value="Choose" name="town">Choose</option>
-    									<option value="Brest" name="town">Brest</option>
-    									<option value="Minsk" name="town">Minsk</option>
-    									<option value="Grodno" name="town">Grodno</option>
-    									<option value="Gomel" name="town">Gomel</option>
-    									<option value="Magilev" name="town">Magilev</option>
-    									<option value="Vitebsk" name="town">Vitebsk</option>
-    								</select>
-    							</form>
+							<div class="form_item_town_answer">
+								<div class="form_itme_town_ansmwer_text">								
+	   								<form method="post" action="./myform.php">
+	    								<select name="town">
+	    									<option value="Choose" required name="town">Choose</option>
+	    									<option value="Brest" required name="town">Brest</option>
+	    									<option value="Minsk" required name="town">Minsk</option>
+	    									<option value="Grodno" required name="town">Grodno</option>
+	    									<option value="Gomel" required name="town">Gomel</option>
+	    									<option value="Magilev" required name="town">Magilev</option>
+	    									<option value="Vitebsk" required name="town">Vitebsk</option>
+	    								</select>
+	    							</form>
+								</div>
 							</div>
+							<div class="line"></div>
 						</div>
-
 
 						<div class="form_item_namelang">
 							<div class="form_item_namelang_header">
@@ -109,11 +110,12 @@
 							<div class="form_item_namelang_answer">
 								<div class="form_itme_namelang_ansmwer_text">
 									<form action="./myform.php" method="post">									
-										<input type="text" placeholder="My answer" name="language" size="40">
-										<div class="line"></div>
+										<input type="text" required placeholder="My answer" name="language" size="60">
+										
 									</form>
 								</div>
 							</div>
+							<div class="line"></div>
 						</div>
 
 						<div class="form_item_years">
@@ -128,15 +130,15 @@
 								<div class="form_itme_years_ansmwer_text">
 									<form action="./myform.php" method="post">	
 										<p>							
-											<input type="checkbox" name="year">First<br>
-											<input type="checkbox" name="year">Second<br>
-											<input type="checkbox" name="year">Third<br>
-											<input type="checkbox" name="year">Fourth<br>
+											<input type="checkbox" required  name="year">First<br>
+											<input type="checkbox" required  name="year">Second<br>
+											<input type="checkbox" required name="year">Third<br>
+											<input type="checkbox" required name="year">Fourth<br>
 										</p>	
 									</form>
 								</div>
-								<div class="line"></div>
 							</div>
+							<div class="line"></div>
 						</div>
 
 
@@ -152,10 +154,11 @@
 							<div class="form_item_image_answer">
 								<div class="form_itme_image_ansmwer_text">
 									<form action="./myform.php" enctype="multipart/form-data" method="post">									
-										<input type="file" name="photo" multiple accept="image/*,image/jpeg">
+										<input type="file" required name="photo" multiple accept="image/*,image/jpeg">
 									</form>
 								</div>
 							</div>
+							<div class="line"></div>
 						</div>
 
 						<div class="form_item_date">
@@ -170,10 +173,11 @@
 							<div class="form_item_date_answer">
 								<div class="form_itme_date_ansmwer_text">
 									<form action="./myform.php" method="post">									
-										<input type="date" autocomplete="on" name="date">
+										<input type="date" required autocomplete="on" name="date">
 									</form>
 								</div>
 							</div>
+							<div class="line"></div>
 						</div>
 
 
